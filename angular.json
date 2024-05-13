@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Project-Wuzzuf-Angular": {
+    "Project-Vezeeta-Angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/project-wuzzuf-angular",
+            "outputPath": "dist/project-vezeeta-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -58,10 +58,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Project-Wuzzuf-Angular:build:production"
+              "buildTarget": "Project-Vezeeta-Angular:build:production"
             },
             "development": {
-              "buildTarget": "Project-Wuzzuf-Angular:build:development"
+              "buildTarget": "Project-Vezeeta-Angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -69,7 +69,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Project-Wuzzuf-Angular:build"
+            "buildTarget": "Project-Vezeeta-Angular:build"
           }
         },
         "test": {
