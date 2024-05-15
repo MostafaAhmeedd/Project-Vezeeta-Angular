@@ -4536,10 +4536,19 @@ data-styled.g1083[id="ShamelBannerstyle__BannerLink-sc-7i6x2b-6"] {
     display: -ms-flexbox;
     display: flex;
     background-color: white;
-    padding-inline-start:16px;font-size: 16px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-inline-start: 16px;
+    font-size: 16px;
     border-radius: 8px;
     overflow: hidden;
     width: 100%;
+    box-sizing: border-box;
+    padding: 5px 16px 0px 16px;
+    color: white;
+    
 }
 
 /*!sc*/
@@ -4595,7 +4604,7 @@ data-styled.g1089[id="BannerWithFullColumnImgstyle__BannerDescription-sc-166s1zp
 /*!sc*/
 @media only screen and (min-width: 768px) {
     .fsukIu {
-        width:96px;
+        width: 96px;
         height: 96px;
         border-radius: 50%;
     }
@@ -4661,24 +4670,16 @@ data-styled.g1092[id="BannerWithFullColumnImgstyle__CTAWrapperDesktop-sc-166s1zp
 
 /*!sc*/
 .dBWSyA {
-    margin-inline-end:16px;-webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
+    margin-inline-end: 16px;
+    -webkit-box-flex: 1;
     flex-grow: 1;
 }
 
 /*!sc*/
 @media only screen and (min-width: 768px) {
     .dBWSyA {
-        display:-webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
         flex-direction: column;
-        -webkit-order: 2;
-        -ms-flex-order: 2;
         order: 2;
     }
 }
@@ -5511,37 +5512,30 @@ data-styled.g1118[id="NewSolutionsstyle__BannerCallToAction-sc-k98jre-16"] {
 
 /*!sc*/
 .htnXUw {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-align-items: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     width: 160px;
     height: 40px;
-    background: #e6f1ff;
+    background: rgb(230, 241, 255);
     border-radius: 8px;
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-    color: #0070cd;
-    -webkit-text-decoration: none;
+    color: rgb(0, 112, 205);
     text-decoration: none;
 }
 
 /*!sc*/
 @media only screen and (min-width: 768px) {
     .htnXUw {
-        width:auto;
+        width: auto;
         height: auto;
         padding: 16px;
-        margin-inline-end:34px;font-size: 16px;
+        margin-inline-end: 34px;
+        font-size: 16px;
         font-weight: 400;
     }
 }
