@@ -1,0 +1,290 @@
+body input,
+body button {
+    font-family: SourceSansPro !important;
+}
+
+.beforeAndAfter {
+    width: 95%;
+    max-width: 1170px;
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: calc(100% - 30px) !important;
+    direction: ltr;
+}
+
+@media only screen and (max-width: 767px) {
+    .beforeAndAfter {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .beforeAndAfter {
+        padding: 0 6px;
+        max-width: 1080px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .beforeAndAfter {
+        padding: 0 6px;
+        max-width: 1080px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .beforeAndAfter {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .beforeAndAfter {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+}
+
+.lbVAzC {
+    background-color: #0070cd;
+    color: white;
+    width: 100%;
+    height: 338px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    padding: 0px 106px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-flow: row-reverse;
+    -ms-flex-flow: row-reverse;
+    flex-flow: row-reverse;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .lbVAzC {
+        padding-bottom: 40px;
+        height: 442px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .lbVAzC {
+        height: auto;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        padding: 40px 0px;
+        border-radius: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+data-styled.g1135[id="DownloadBannerstyle__DownloadContainer-sc-19fh9n5-0"] {
+    content: "lbVAzC,"
+}
+
+.image-container {
+    margin-right: 0;
+    margin-left: 0;
+    height: 293px;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+    .image-container {
+        margin-top: 0px;
+    }
+}
+
+.image {
+    height: 291px;
+    width: 314px;
+    margin: 0px 23px;
+}
+
+@media only screen and (min-width: 768px) {
+    .image {
+        margin-top: 7px;
+    }
+}
+
+.text {
+    margin-top: 70px;
+    width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    .text {
+        text-align: center;
+        width: 100%;
+        margin: 10px 32px 0px 32px;
+    }
+}
+
+.header {
+    font-size: 30px;
+    font-Weight: 620;
+    margin: 0px 0px 8px;
+    height: 53px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .header {
+        height: 26px;
+        font-size: 18px;
+        font-Weight: 700;
+        Line-height: 26px;
+        margin-bottom: 4px;
+    }
+}
+
+.paragraph {
+    white-space: pre-line;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+    max-width: 434px;
+    line-height: 24px;
+}
+
+@media only screen and (max-width: 767px) {
+    .paragraph {
+        padding: 0 32px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .paragraph {
+        font-size: 16px;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+}
+
+.buttons-container {
+    width: 100%;
+    height: 48px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.button {
+    padding: 13px;
+    display: inline-block;
+    border: none;
+    direction: ltr;
+    border-radius: 6px;
+    background-color: white;
+    color: #666666;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    height: 29px;
+    margin-inline-start: 8px;
+    width: 120px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0px auto;
+    height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .button {
+        padding: 9px 12px;
+        margin: 0px;
+        width: auto;
+    }
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 7px;
+}
+
+.app-download-text {
+    font-size: 1rem;
+}
+
+
+
+
+
+.iitGwi:hover span:after {
+    opacity: 0;
+}
+
+.iitGwi:hover img {
+    opacity: 1;
+    -webkit-transition: opacity 0.7s ease-in;
+    transition: opacity 0.7s ease-in;
+}
+
+data-styled.g102[id="Modalstyle__ModalBody-sc-1dh8bzt-3"] {
+    content: "iitGwi,"
+}
+
+.bulAuM a {
+    color: #0070cd !important;
+}
+
+data-styled.g151[id="HomeHeaderContentstyle__PhoneNumberBelowSearchBar-sc-1v6e7b2-10"] {
+    content: "bulAuM,"
+}
+
+

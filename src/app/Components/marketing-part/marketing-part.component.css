@@ -1,0 +1,145 @@
+body {
+    background-color: #e2e6ea;
+    font-size: 12px;
+    font-family: SourceSansPro !important;
+    margin: 0px;
+    height: -webkit-fill-available;
+}
+
+body input,body button {
+    font-family: SourceSansPro !important;
+}
+
+.beforeAndAfter {
+    padding-top: 40px;
+    display: block;
+}
+
+@media only screen and (min-width: 1024px) {
+    .beforeAndAfter {
+        padding:56px 0;
+    }
+}
+
+.container {
+    width: 95%;
+    max-width: 1170px;
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: calc(100% - 30px) !important;
+    direction: ltr;
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width :95%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .container {
+        padding:0 6px;
+        max-width: 1080px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        padding:0 6px;
+        max-width: 1080px;
+    }
+}
+
+.item {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .item {
+        width:22.5%;
+        margin-bottom: 0px;
+    }
+}
+
+.image {
+    display: inline-block;
+    width: 35px;
+    vertical-align: top;
+    margin-bottom: 18px;
+    margin: 0 15px 0 0;
+}
+
+@media only screen and (min-width: 1024px) {
+    .image {
+        width:32px;
+        display: block;
+        margin-bottom: 18px;
+    }
+}
+
+.paragraph {
+    display: inline-block;
+    width: calc(100% - 50px);
+    /* font-weight: 500; */
+}
+
+@media only screen and (min-width: 1024px) {
+    .paragraph {
+        width:100%;
+    }
+}
+
+.header {
+    font-weight: 700;
+    display: block;
+    color: #666666;
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .header {
+        height:60px;
+        margin-bottom: 8px;
+        line-height: 30px;
+        font-size:22px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .header {
+        font-size:20px;
+    }
+}
+
+.body {
+    display: block;
+    font-size: 14px;
+    color: #6f7072;
+    line-height: 24px;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .body {
+        font-size:15px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .body {
+        font-size:16px;
+    }
+}
+
+
