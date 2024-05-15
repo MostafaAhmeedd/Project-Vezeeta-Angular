@@ -242,7 +242,7 @@ data-styled.g1135[id="DownloadBannerstyle__DownloadContainer-sc-19fh9n5-0"] {
     margin: 0px auto;
     height: auto;
 }
-
+/**/
 @media only screen and (min-width: 768px) {
     .button {
         padding: 9px 12px;
@@ -260,31 +260,3 @@ data-styled.g1135[id="DownloadBannerstyle__DownloadContainer-sc-19fh9n5-0"] {
 .app-download-text {
     font-size: 1rem;
 }
-
-
-
-
-
-.iitGwi:hover span:after {
-    opacity: 0;
-}
-
-.iitGwi:hover img {
-    opacity: 1;
-    -webkit-transition: opacity 0.7s ease-in;
-    transition: opacity 0.7s ease-in;
-}
-
-data-styled.g102[id="Modalstyle__ModalBody-sc-1dh8bzt-3"] {
-    content: "iitGwi,"
-}
-
-.bulAuM a {
-    color: #0070cd !important;
-}
-
-data-styled.g151[id="HomeHeaderContentstyle__PhoneNumberBelowSearchBar-sc-1v6e7b2-10"] {
-    content: "bulAuM,"
-}
-
-

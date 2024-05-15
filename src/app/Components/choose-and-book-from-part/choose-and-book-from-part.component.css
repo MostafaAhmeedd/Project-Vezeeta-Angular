@@ -1,0 +1,144 @@
+.beforeAndAfter {
+    background: #EEF0F2;
+    padding: 56px 0;
+    display: block;
+}
+
+.container {
+    width: 95%;
+    max-width: 1170px;
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: calc(100% - 30px) !important;
+    direction: ltr;
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width :95%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .container {
+        padding:0 6px;
+        max-width: 1080px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        padding:0 6px;
+        max-width: 1080px;
+    }
+}
+
+.specialties-part {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .specialties-part {
+        margin-bottom:32px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .specialties-part {
+        width:50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .specialties-part {
+        width:100%;
+    }
+}
+
+.specialties-header {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+.specialty {
+    background: white;
+    color: rgb(111, 112, 114);
+    font-size: 14px!important;
+    margin-bottom: 8px;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 4px;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    margin: 5px;
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.specialty:hover {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+.cities-header{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+.city {
+    background: white;
+    color: rgb(111, 112, 114);
+    font-size: 14px!important;
+    margin-bottom: 8px;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 4px;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    margin: 5px;
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.city:hover {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+.cities-part {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 0px;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .cities-part {
+        width:50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .cities-part {
+        width:100%;
+    }
+}
