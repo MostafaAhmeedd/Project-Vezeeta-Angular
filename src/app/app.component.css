@@ -1,0 +1,9 @@
+app-backgrounds {
+    position: relative; 
+    z-index: 1; 
+}
+
+app-search {
+    position: relative; 
+    z-index: 2; 
+}
