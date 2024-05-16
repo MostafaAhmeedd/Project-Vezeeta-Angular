@@ -1,11 +1,12 @@
 /* header.component.css */
 /* Customize the styling as needed */
 .navbar {
-    padding: 10px 0;
+    padding: 1px;
   }
   
   .navbar-brand img {
     max-height: 40px;
+    padding-left: 0px;
   }
   
   .navbar-nav .nav-link {
@@ -13,3 +14,6 @@
     margin-right: 10px;
   }
   
+  .container {
+    margin-left: 5px;
+  }
