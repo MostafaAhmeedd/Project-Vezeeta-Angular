@@ -78,13 +78,16 @@ body {
 }
 
 .search-button {
-  background-color: #d9232d;
+  background-color: #ff3333;
   color: white;
   border: none;
   padding: 12px 20px;
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  width: 36%;
+  height: 80%;
+  text-align: center;
   transition: background-color 0.3s;
 }
 

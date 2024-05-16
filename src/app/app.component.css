@@ -1,9 +1,9 @@
-.back {
+.background {
     position: relative;
     height: 800px;
 }
 
-.back app-backgrounds {
+.background app-backgrounds {
     max-width: 100%;
 }
 
