@@ -1,0 +1,25 @@
+/* header.component.css */
+/* Customize the styling as needed */
+.navbar {
+    padding: 1px;
+  }
+  
+  .navbar-brand img {
+    max-height: 30px;
+    padding-left: 0px;
+  }
+  
+  .navbar-nav  {
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .container {
+    margin-left: 5px;
+  }
+
+  .nav-link{
+    color: white;
+    margin-right: 10px;
+    font-size: 1.7ch;
+  }
