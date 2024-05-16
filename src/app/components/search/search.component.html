@@ -1,0 +1,82 @@
+<body>
+  <div class="container my-4 p-4 bg-white rounded shadow" class="search-container">
+    <div class="row border-bottom pb-3 search-header">
+      <div class="col-md-6 text-center border-end search-header-item" (click)="switchSearch(true)" role="button" [ngClass]="{'clicked':isSearch}">
+        <div class="d-flex align-items-center justify-content-center">
+          <i class="fas fa-calendar-alt fa-5x me-2"></i>
+          <div>
+            <span class="h5 d-block">Book a doctor</span>
+            <span class="h9 d-block" style="font-size: 0.8rem; margin-left: 5px;">Examination or procedure</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 text-center search-header-item" (click)="switchSearch(false)" role="button" [ngClass]="{'clicked':!isSearch}">
+        <div class="d-flex align-items-center justify-content-center">
+          <i class="fas fa-stethoscope fa-2x me-2"></i>
+          <div>
+            <span class="h5 d-block">Telehealth</span>
+            <small class="h9 d-block" style="font-size: 0.8rem; margin-left: 5px;">Call consultation with doctor</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    @if(this.isSearch)
+    {
+      <div class="row mt-3 Allbar">
+        <div class="col-2 mb-3">
+          <select class="form-select">
+            <option value="" selected>Choose specialty</option>
+            <option value="Cardiology">Cardiology</option>
+            <option value="Dermatology">Dermatology</option>
+            <option value="Endocrinology">Endocrinology</option>
+            <option value="Gastroenterology">Gastroenterology</option>
+            <option value="Neurology">Neurology</option>
+            <option value="Oncology">Oncology</option>
+            <option value="Pediatrics">Pediatrics</option>
+            <option value="Psychiatry">Psychiatry</option>
+            <option value="Urology">Urology</option>
+          </select>
+        </div>
+        <div class="col-2 mb-3">
+          <select class="form-select">
+            <option value="" selected>Choose city</option>
+            <option value="Cairo">Cairo</option>
+            <option value="Alexandria">Alexandria</option>
+            <option value="Giza">Giza</option>
+            <option value="Shubra El Kheima">Shubra El Kheima</option>
+            <option value="Port Said">Port Said</option>
+            <option value="Suez">Suez</option>
+            <option value="Luxor">Luxor</option>
+            <option value="Mansoura">Mansoura</option>
+            <option value="Asyut">Asyut</option>
+          </select>
+        </div>
+        <div class="col-2 mb-3">
+          <select class="form-select">
+            <option value="" selected>Choose area</option>
+          </select>
+        </div>
+        <div class="col-2 mb-3">
+          <input type="text" class="form-control" placeholder="Doctor name or hospital">
+        </div>
+        <div class="col-2 text-end">
+          <button class="btn btn-danger search-btn1" routerLink="search-result">Search</button>
+        </div>
+      </div>
+      
+      }
+    @else {
+    <div class="row mt-3 Allbar">
+      <div class="col-6 mb-3">
+        <select class="form-select">
+          <option selected>Choose specialty</option>
+        </select>
+      </div>
+      <div class="col-6 text-end">
+        <button class="btn btn-danger search-button" >Search</button>
+      </div>
+    </div>
+    }
+  </div>
+</body>
