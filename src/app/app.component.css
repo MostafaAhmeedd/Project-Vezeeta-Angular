@@ -1,0 +1,14 @@
+.back {
+    position: relative;
+    height: 800px;
+}
+
+.back app-backgrounds {
+    max-width: 100%;
+}
+
+.search {
+    position: relative;
+    top: -30px;
+    padding: 20px;
+}
