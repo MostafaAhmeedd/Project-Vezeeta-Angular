@@ -1,0 +1,15 @@
+.background {
+    position: relative;
+    height: 700px;
+}
+
+.background app-backgrounds {
+    max-width: 100%;
+}
+
+.search {
+    position: relative;
+    top: -30px;
+    padding-right: 50px;
+
+}

@@ -44,6 +44,15 @@
       "gender": "male",
       "password": "1234",
       "bithday": ""
+    },
+    {
+      "id": 0,
+      "username": "sandra ",
+      "phoneNum": "64646464645",
+      "email": "user@example.com",
+      "password": "55555",
+      "gender": "female",
+      "birthday": "2456-05-01"
     }
   ]
 }

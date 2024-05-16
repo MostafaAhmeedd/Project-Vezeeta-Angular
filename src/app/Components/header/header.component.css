@@ -5,7 +5,7 @@
   }
   
   .navbar-brand img {
-    max-height: 30px;
+    max-height: 50px;
     padding-left: 0px;
   }
   
@@ -16,6 +16,7 @@
   
   .container {
     margin-left: 5px;
+    height:65px;
   }
 
   .nav-link{
