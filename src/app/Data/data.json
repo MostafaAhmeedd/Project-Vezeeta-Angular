@@ -53,6 +53,15 @@
       "password": "55555",
       "gender": "female",
       "birthday": "2456-05-01"
+    },
+    {
+      "id": 6,
+      "username": "admin",
+      "phoneNum": "00000000000",
+      "email": "user2@ejada.com",
+      "password": "123456789",
+      "gender": "male",
+      "birthday": "5689-04-01"
     }
   ]
 }
