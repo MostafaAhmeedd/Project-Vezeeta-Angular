@@ -54,7 +54,7 @@ export class SignUpComponent {
     this.UService.addUser(this.user).subscribe({
       next: () => {
         // User updated successfully, navigate to the user details page
-        this.router.navigate(['/login']);
+        this.router.navigate(['/']);
         // routerLinkActive="active" routerLink="/students" 
       },
       error: (err) => {

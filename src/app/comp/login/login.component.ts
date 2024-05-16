@@ -46,7 +46,7 @@ export class LoginComponent {
     }
 
     if(log){
-      this.router.navigate(['/signUp']);
+      this.router.navigate(['/']);
     }else{
       alert('Invalid email or password. Please try again.');
       this.user.email='';

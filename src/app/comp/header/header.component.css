@@ -5,15 +5,21 @@
   }
   
   .navbar-brand img {
-    max-height: 40px;
+    max-height: 30px;
     padding-left: 0px;
   }
   
-  .navbar-nav .nav-link {
+  .navbar-nav  {
     color: white;
     margin-right: 10px;
   }
   
   .container {
     margin-left: 5px;
+  }
+
+  .nav-link{
+    color: white;
+    margin-right: 10px;
+    font-size: 1.7ch;
   }

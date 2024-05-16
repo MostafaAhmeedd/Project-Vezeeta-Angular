@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { map, switchMap } from 'rxjs/operators';
 
 
 @Injectable({
@@ -37,20 +36,6 @@ export class UsersService {
     return this.http.put<any>(url, userData);
   }
 
-  // addUser( userData: any): Observable<any> {
-  //   let userId = 0;
-  //   let users: any[];
-  //   this.GetAllUsers().subscribe((users: any[]) => {
-  //     // Process the users data here
-  //     userId = users.length+1;
-  //     const lastUser = users[users.length - 1];
-  //     const lastId = lastUser.id;
-  //   });
-
-  //   const url = `${this.DB_URL}/${userId}`;
-  //   return this.http.put<any>(url, userData);
-
-  // }
 
   addUser(userData: any): Observable<any> {
   

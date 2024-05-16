@@ -6,6 +6,7 @@ import { SignUpComponent } from './comp/sign-up/sign-up.component';
 import { LoginComponent } from './comp/login/login.component';
 import { ContactUsComponent } from './comp/contact-us/contact-us.component';
 import { ForDoctorsComponent } from './comp/for-doctors/for-doctors.component';
+import { AppComponent } from './app.component';
 
 
 
@@ -18,8 +19,7 @@ export const routes: Routes = [
     {path:"login", component:LoginComponent},
     {path:"ContactUs", component:ContactUsComponent},
     {path:"ForDoc", component:ForDoctorsComponent}
-    // {path:"update/:id", component : UpdateComponent},
-    // {path:"**",component:ErrorComponent}
+
 
 
 ];
