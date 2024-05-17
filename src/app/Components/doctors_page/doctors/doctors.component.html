@@ -1,0 +1,138 @@
+@for (doctor of doctors; track $index) {
+<div class="doctor-container">
+    <div class="doctor-profile">
+
+        <div class="profile-picture">
+    
+            <img src={{doctor.photo}}
+                alt={{doctor.name}} />
+        </div>
+        
+        <div class="profile-details">
+            <h4 class="doctor-cont"> <span class="doctor-title">Doctor </span><span class="doctor-name">{{doctor.name}}</span></h4>
+            <p class="title">{{ doctor.title }}</p>
+            <div class="rating">
+                <span class="stars">{{ '★'.repeat(doctor.rating) }}</span>
+                <span class="rating-count">Overall Rating From {{ doctor.ratingCount }} Visitors</span>
+            </div>
+            <ul class="details">
+                <li><i class="fa fa-user-md"></i> Orthopedist Specialized in <span>{{ doctor.specialization }}</span></li>
+                <li><i class="fa-solid fa-map"></i> {{ doctor.location }}</li>
+                <li><i class="fa-solid fa-money-bill"></i> Fees:{{ doctor.fees }} EGP</li>
+                <li><i class="fa-regular fa-clock"></i> {{ doctor.waitingTime }}</li>
+                <li><i class="fa fa-phone"></i>  {{ doctor.phone }} - Cost of regular call</li>
+    
+            </ul>
+    
+        </div>
+        <swiper-container navigation="true" slides-per-view="1">
+            <swiper-slide>
+                <span class="SchedulesubComponentsstyle__AnimateSlideSideWay-sc-1dc31lc-9 hkOlnY">
+                    <div data-testid="schedule-day--undefined" data-autotestid="schedule-day--17/05/2024--available--true"
+                        class="SchedulesubComponentsstyle__DayColumn-sc-1dc31lc-12 TVapW">
+                        <div data-autotestid="schedule__day__day-title"
+                            class="SchedulesubComponentsstyle__ColumnButton-sc-1dc31lc-11 bMwAny">Today</div>
+                        <div class="SchedulesubComponentsstyle__DayContent-sc-1dc31lc-10 gswTQR">
+                            <div data-testid="single-fifo-slot--9:00 PM"
+                                data-autotestid="schedule__day--17/05/2024__slot--available-true--17/05/2024 09:42 PM--type--fifo"
+                                class="SchedulesubComponentsstyle__CenterText-sc-1dc31lc-16 ehgKRu"><span
+                                    class="SchedulesubComponentsstyle__Small-sc-1dc31lc-20 fpXaYC">From </span><span
+                                    class="SchedulesubComponentsstyle__Bold-sc-1dc31lc-19 eaiLGN">9:00 PM</span> <br><span
+                                    class="SchedulesubComponentsstyle__Small-sc-1dc31lc-20 fpXaYC">To </span><span
+                                    class="SchedulesubComponentsstyle__Bold-sc-1dc31lc-19 eaiLGN">11:00 PM</span></div>
+                        </div>
+                        <div data-autotestid="schedule-day__book-button" title="Book your appointment Today"
+                            class="SchedulesubComponentsstyle__ColumnButton-sc-1dc31lc-11 dEeEEt">Book</div>
+                    </div>
+                    <div data-testid="schedule-day--undefined" data-autotestid="schedule-day--18/05/2024--available--true"
+                        class="SchedulesubComponentsstyle__DayColumn-sc-1dc31lc-12 TVapW">
+                        <div data-autotestid="schedule__day__day-title"
+                            class="SchedulesubComponentsstyle__ColumnButton-sc-1dc31lc-11 bMwAny">Tomorrow</div>
+                        <div class="SchedulesubComponentsstyle__DayContent-sc-1dc31lc-10 gswTQR">
+                            <div data-testid="single-fifo-slot--8:30 PM"
+                                data-autotestid="schedule__day--18/05/2024__slot--available-true--18/05/2024 08:30 PM--type--fifo"
+                                class="SchedulesubComponentsstyle__CenterText-sc-1dc31lc-16 ehgKRu"><span
+                                    class="SchedulesubComponentsstyle__Small-sc-1dc31lc-20 fpXaYC">From </span><span
+                                    class="SchedulesubComponentsstyle__Bold-sc-1dc31lc-19 eaiLGN">8:30 PM</span> <br><span
+                                    class="SchedulesubComponentsstyle__Small-sc-1dc31lc-20 fpXaYC">To </span><span
+                                    class="SchedulesubComponentsstyle__Bold-sc-1dc31lc-19 eaiLGN">11:00 PM</span></div>
+                        </div>
+                        <div data-autotestid="schedule-day__book-button" title="Book your appointment Tomorrow"
+                            class="SchedulesubComponentsstyle__ColumnButton-sc-1dc31lc-11 dEeEEt">Book</div>
+                    </div>
+                    <div data-testid="schedule-day--undefined" data-autotestid="schedule-day--19/05/2024--available--true"
+                        class="SchedulesubComponentsstyle__DayColumn-sc-1dc31lc-12 TVapW">
+                        <div data-autotestid="schedule__day__day-title"
+                            class="SchedulesubComponentsstyle__ColumnButton-sc-1dc31lc-11 bMwAny">Sun 05/19</div>
+                        <div class="SchedulesubComponentsstyle__DayContent-sc-1dc31lc-10 gswTQR">
+                            <div data-testid="single-fifo-slot--8:30 PM"
+                                data-autotestid="schedule__day--19/05/2024__slot--available-true--19/05/2024 08:39 PM--type--fifo"
+                                class="SchedulesubComponentsstyle__CenterText-sc-1dc31lc-16 ehgKRu"><span
+                                    class="SchedulesubComponentsstyle__Small-sc-1dc31lc-20 fpXaYC">From </span><span
+                                    class="SchedulesubComponentsstyle__Bold-sc-1dc31lc-19 eaiLGN">8:30 PM</span> <br><span
+                                    class="SchedulesubComponentsstyle__Small-sc-1dc31lc-20 fpXaYC">To </span><span
+                                    class="SchedulesubComponentsstyle__Bold-sc-1dc31lc-19 eaiLGN">11:30 PM</span></div>
+                        </div>
+                        <div data-autotestid="schedule-day__book-button" title="Book your appointment on Sun"
+                            class="SchedulesubComponentsstyle__ColumnButton-sc-1dc31lc-11 dEeEEt">Book</div>
+                    </div>
+                </span>
+            </swiper-slide>
+            <swiper-slide>
+                <span class="SchedulesubComponentsstyle__AnimateSlideSideWay-sc-1dc31lc-9 hkOlnY">
+                    <div data-testid="schedule-day--undefined" data-autotestid="schedule-day--17/05/2024--available--true"
+                        class="SchedulesubComponentsstyle__DayColumn-sc-1dc31lc-12 TVapW">
+                        <div data-autotestid="schedule__day__day-title"
+                            class="SchedulesubComponentsstyle__ColumnButton-sc-1dc31lc-11 bMwAny">Today</div>
+                        <div class="SchedulesubComponentsstyle__DayContent-sc-1dc31lc-10 gswTQR">
+                            <div data-testid="single-fifo-slot--9:00 PM"
+                                data-autotestid="schedule__day--17/05/2024__slot--available-true--17/05/2024 09:42 PM--type--fifo"
+                                class="SchedulesubComponentsstyle__CenterText-sc-1dc31lc-16 ehgKRu"><span
+                                    class="SchedulesubComponentsstyle__Small-sc-1dc31lc-20 fpXaYC">From </span><span
+                                    class="SchedulesubComponentsstyle__Bold-sc-1dc31lc-19 eaiLGN">9:00 PM</span> <br><span
+                                    class="SchedulesubComponentsstyle__Small-sc-1dc31lc-20 fpXaYC">To </span><span
+                                    class="SchedulesubComponentsstyle__Bold-sc-1dc31lc-19 eaiLGN">11:00 PM</span></div>
+                        </div>
+                        <div data-autotestid="schedule-day__book-button" title="Book your appointment Today"
+                            class="SchedulesubComponentsstyle__ColumnButton-sc-1dc31lc-11 dEeEEt">Book</div>
+                    </div>
+                    <div data-testid="schedule-day--undefined" data-autotestid="schedule-day--18/05/2024--available--true"
+                        class="SchedulesubComponentsstyle__DayColumn-sc-1dc31lc-12 TVapW">
+                        <div data-autotestid="schedule__day__day-title"
+                            class="SchedulesubComponentsstyle__ColumnButton-sc-1dc31lc-11 bMwAny">Tomorrow</div>
+                        <div class="SchedulesubComponentsstyle__DayContent-sc-1dc31lc-10 gswTQR">
+                            <div data-testid="single-fifo-slot--8:30 PM"
+                                data-autotestid="schedule__day--18/05/2024__slot--available-true--18/05/2024 08:30 PM--type--fifo"
+                                class="SchedulesubComponentsstyle__CenterText-sc-1dc31lc-16 ehgKRu"><span
+                                    class="SchedulesubComponentsstyle__Small-sc-1dc31lc-20 fpXaYC">From </span><span
+                                    class="SchedulesubComponentsstyle__Bold-sc-1dc31lc-19 eaiLGN">8:30 PM</span> <br><span
+                                    class="SchedulesubComponentsstyle__Small-sc-1dc31lc-20 fpXaYC">To </span><span
+                                    class="SchedulesubComponentsstyle__Bold-sc-1dc31lc-19 eaiLGN">11:00 PM</span></div>
+                        </div>
+                        <div data-autotestid="schedule-day__book-button" title="Book your appointment Tomorrow"
+                            class="SchedulesubComponentsstyle__ColumnButton-sc-1dc31lc-11 dEeEEt">Book</div>
+                    </div>
+                    <div data-testid="schedule-day--undefined" data-autotestid="schedule-day--19/05/2024--available--true"
+                        class="SchedulesubComponentsstyle__DayColumn-sc-1dc31lc-12 TVapW">
+                        <div data-autotestid="schedule__day__day-title"
+                            class="SchedulesubComponentsstyle__ColumnButton-sc-1dc31lc-11 bMwAny">Sun 05/19</div>
+                        <div class="SchedulesubComponentsstyle__DayContent-sc-1dc31lc-10 gswTQR">
+                            <div data-testid="single-fifo-slot--8:30 PM"
+                                data-autotestid="schedule__day--19/05/2024__slot--available-true--19/05/2024 08:39 PM--type--fifo"
+                                class="SchedulesubComponentsstyle__CenterText-sc-1dc31lc-16 ehgKRu"><span
+                                    class="SchedulesubComponentsstyle__Small-sc-1dc31lc-20 fpXaYC">From </span><span
+                                    class="SchedulesubComponentsstyle__Bold-sc-1dc31lc-19 eaiLGN">8:30 PM</span> <br><span
+                                    class="SchedulesubComponentsstyle__Small-sc-1dc31lc-20 fpXaYC">To </span><span
+                                    class="SchedulesubComponentsstyle__Bold-sc-1dc31lc-19 eaiLGN">11:30 PM</span></div>
+                        </div>
+                        <div data-autotestid="schedule-day__book-button" title="Book your appointment on Sun"
+                            class="SchedulesubComponentsstyle__ColumnButton-sc-1dc31lc-11 dEeEEt">Book</div>
+                    </div>
+                </span>
+            </swiper-slide>
+        
+        </swiper-container>
+    
+    </div>
+</div>
+}
