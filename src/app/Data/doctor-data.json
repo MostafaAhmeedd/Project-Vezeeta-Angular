@@ -1,0 +1,40 @@
+{
+   "doctors":[
+     {
+      "name": "Tamer Yehia HCC",
+      "title": "Consultant orthopedic surgery and spine surgery, joints, and sports injuries",
+      "photo":"",
+      "rating": 5,
+      "ratingCount": 1390,
+      "specialization": "Adult Orthopedics, Arthroscopy and Sports Injuries",
+      "location": "El-Mohandessin: shehab street, borg alzahraa",
+      "fees": 350,
+      "waitingTime": 48,
+      "phone": "16676"
+    },
+    {
+      "name": "Sarah Ahmed",
+      "title": "Specialist in pediatric orthopedics and spine surgery",
+      "photo":"",
+      "rating": 4,
+      "ratingCount": 820,
+      "specialization": "Pediatric Orthopedics, Spine Surgery",
+      "location": "Dokki: gameat el dewual street, tower el safa",
+      "fees": 300,
+      "waitingTime": 30,
+      "phone": "16789"
+    },
+    {
+      "name": "John Wafik",
+      "title": "Senior orthopedic surgeon specializing in joint replacement",
+      "photo":"",
+      "rating": 4.5,
+      "ratingCount": 1024,
+      "specialization": "Joint Replacement, Arthroscopy",
+      "location": "Zamalek: 26th of July street, Nile tower",
+      "fees": 400,
+      "waitingTime": 45,
+      "phone": "16890"
+    }]
+}
+  
