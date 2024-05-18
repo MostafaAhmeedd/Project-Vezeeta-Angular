@@ -1,3 +1,8 @@
+.doctor-container {
+    width: fit-content;
+    margin-left: 270px;
+}
+
 .doctor-profile {
     display: flex;
     border: 1px solid #ccc;
@@ -20,9 +25,6 @@
 }
 
 .doctor-container:hover .doctor-profile,
-/* .doctor-container:hover .profile-picture, */
-/* .doctor-container:hover .profile-details, */
-/* .doctor-container:hover swiper-container, */
 .doctor-container:hover swiper-slide {
     background-color: gainsboro !important;
 }
