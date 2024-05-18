@@ -1,7 +1,7 @@
 import { HttpClientModule } from '@angular/common/http';
 import { CUSTOM_ELEMENTS_SCHEMA, Component } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
-import { DoctorServiceService } from '../../../Services/doctor-service.service';
+import { DoctorServiceService } from '../../Services/doctor-service.service';
 
 @Component({
   selector: 'app-doctors',
