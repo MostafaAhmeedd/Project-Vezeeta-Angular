@@ -1,7 +1,8 @@
 .specialties-container {
     margin-top: 20px;
     background-color: rgb(238, 240, 242);
-    padding: 20px;
+    padding: 30px 90px 0px;
+    height: 450px;
 }
 
 h1 {
@@ -15,5 +16,6 @@ h1 {
     direction: ltr;
     width: calc(100% - 30px) !important;
     color: rgb(102, 102, 102);
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    margin-left: 75px;
 }
