@@ -22,6 +22,14 @@ swiper-slide {
     align-items: center;
 }
 
+/* .swiper-button-next svg,
+.swiper-button-prev svg {
+    color:red;
+    height: 100%;
+    object-fit: contain;
+    transform-origin: center;
+}
+ */
 /* .swiper-navigation-prev {
     width: 100%;
     height: 100%;

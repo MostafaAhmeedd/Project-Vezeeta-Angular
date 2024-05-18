@@ -3,7 +3,7 @@
      {
       "name": "Tamer Yehia HCC",
       "title": "Consultant orthopedic surgery and spine surgery, joints, and sports injuries",
-      "photo":"",
+      "photo":"assets/images/doctors/doctor-2.jpg",
       "rating": 5,
       "ratingCount": 1390,
       "specialization": "Adult Orthopedics, Arthroscopy and Sports Injuries",
@@ -15,7 +15,7 @@
     {
       "name": "Sarah Ahmed",
       "title": "Specialist in pediatric orthopedics and spine surgery",
-      "photo":"",
+      "photo":"assets/images/doctors/doctor-1.jpg",
       "rating": 4,
       "ratingCount": 820,
       "specialization": "Pediatric Orthopedics, Spine Surgery",
@@ -27,7 +27,7 @@
     {
       "name": "John Wafik",
       "title": "Senior orthopedic surgeon specializing in joint replacement",
-      "photo":"",
+      "photo":"assets/images/doctors/doctor-3.jpg",
       "rating": 4.5,
       "ratingCount": 1024,
       "specialization": "Joint Replacement, Arthroscopy",

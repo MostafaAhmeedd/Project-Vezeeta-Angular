@@ -1,9 +1,7 @@
-
 .doctor-profile {
     display: flex;
     border: 1px solid #ccc;
-    padding: 20px; 
-     border-radius: 8px;
+    border-radius: 8px;
     max-width: 600px;
     margin: 20px auto;
     background-color: #fff;
@@ -16,18 +14,19 @@
     text-align: left;
     position: relative;
     cursor: pointer;
-    padding: 40px 0px 0px;
+    padding: 40px;
     max-width: calc(-270px + 100vw);
     width: calc(952px);
 }
 
 .doctor-container:hover .doctor-profile,
-.doctor-container:hover .profile-picture,
-.doctor-container:hover .profile-details,
-.doctor-container:hover swiper-container,
-.doctor-container:hover swiper-slide{
-    background-color: gainsboro!important;
+/* .doctor-container:hover .profile-picture, */
+/* .doctor-container:hover .profile-details, */
+/* .doctor-container:hover swiper-container, */
+.doctor-container:hover swiper-slide {
+    background-color: gainsboro !important;
 }
+
 .profile-picture img {
     width: 100px;
     height: 100px;
@@ -145,7 +144,6 @@ swiper-slide {
     }
 }
 
-
 .ehgKRu {
     text-align: center;
     font-size: 10px;
@@ -170,6 +168,7 @@ swiper-slide {
     cursor: pointer;
     text-transform: uppercase;
 }
+
 .eaiLGN {
     font-weight: bold;
     font-size: 10px;

@@ -1,15 +1,19 @@
 import { Component } from '@angular/core';
+import { Router, RouterModule } from '@angular/router';
+
 
 @Component({
   selector: 'app-backgrounds',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './backgrounds.component.html',
   styleUrl: './backgrounds.component.css'
 })
 export class BackgroundsComponent {
 
 }
+
+
 document.addEventListener("DOMContentLoaded", () => {
   const backgroundImage = document.getElementById('backgroundImage') as HTMLImageElement;
   const images = [
@@ -30,7 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   switchBackground(); 
-
   setInterval(switchBackground, 4000); 
 });
 
