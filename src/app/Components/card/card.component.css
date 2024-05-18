@@ -2,23 +2,51 @@
     color: -webkit-link;
     cursor: pointer;
 }
+
+.swiper {
+    width: 100%;
+    height: 290px;
+}
+
+swiper-container {
+    display: flex;
+    width: 90%;
+    height: 100%;
+}
+
+swiper-slide {
+    /* text-align: center; */
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 img {
-    width:260px;  height: 210px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+    width: 260px;
+    height: 220px;
     overflow: clip;
+    border-radius: 8px 8px 0px 0px;
 }
-.card-style{
 
-border-radius: 25px;
-
- width: 260px;
-  height:300px ; 
-  background-color:white;
+.card-style {
+    border-radius: 25px;
+    width: 260px;
+    height: 240px;
+    background-color: white;
 }
-.speciality-name{
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 0px;
-    color: rgb(102,102,102)
+
+.speciality-name {
+    padding: 13px 16px 11px;
+   /*  width: calc(100% - 32px); */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    background-color: white;
+    margin: -4px 0px 0px;
+    color: rgb(102, 102, 102);
+    border-radius: 0px 0px 8px 8px;
+    height:auto;
 }

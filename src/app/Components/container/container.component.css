@@ -1,18 +1,19 @@
-.webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-}
-img {
-    border-top-right-radius: 25px;
-    border-top-right-radius: 25px;
-    overflow: clip;
-}
-.container{
+.specialties-container {
     margin-top: 20px;
-    background-color:rgb(238, 240, 242);;
+    background-color: rgb(238, 240, 242);
     padding: 20px;
-
 }
-h1{
+
+h1 {
+    max-width: 1170px;
+    font-size: 32px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    direction: ltr;
+    width: calc(100% - 30px) !important;
     color: rgb(102, 102, 102);
+    margin-bottom: 20px;
 }
